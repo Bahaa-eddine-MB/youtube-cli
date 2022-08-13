@@ -1,0 +1,43 @@
+{
+  "name": "youtube-cli",
+  "version": "1.0.0",
+  "description": "This is the concluding project of Unit 3 of the web development bootcamp offered by [Code Labs Academy](https://codelabsacademy.com), in this unit we had an introduction to backend development in javascript, we touched on many of the theory concepts in networking that makes communication over the internet possible. We learned about NodeJs as a server side framework, we leveraged the variety of built-in modules that it offers and we saw how to serve static and dynamic files from the server using templating engines. We will use all these concepts and more throughout our journey with Nodejs, but first let’s discover another way of using node js: as a scripting and automation tool. We will be building our own command-line interface (CLI) called “youtube-cli”. Finally we will install “youtube-cli” to make it easy for us to use from anywhere locally.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clawebdevbootcamp/youtube-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clawebdevbootcamp/youtube-cli/issues"
+  },
+  "homepage": "https://github.com/clawebdevbootcamp/youtube-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "child_process": "^1.0.2",
+    "commander": "^9.4.0",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.1",
+    "inquirer": "^9.1.0",
+    "nanospinner": "^1.1.0",
+    "react-youtube": "^9.0.3",
+    "vlc-media-player": "^1.0.1",
+    "vlc-player": "^1.0.0",
+    "vlc-player-controller": "^0.0.5",
+    "vlc-simple-player": "^0.5.1",
+    "youtube-api-search": "^0.0.5",
+    "ytdl-core": "^4.11.0",
+    "ytsr": "^3.8.0"
+  },
+  "bin": {
+    "vlc-ytb":"./lanch.bat"
+  }
+}
